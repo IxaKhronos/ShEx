@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+	"name":"SheetsEx",
+	"short_name":"Sh",
+	"version":"0.0.0.4",
+	"description":"スプレッドシート",
+	"icons":{"128":"img/128.png","48":"img/48.png","16":"img/16.png"},
+	"browser_action":{
+		"default_title":"Sheets",
+		"default_icon":{"32":"img/32.png"}
+		},
+
+	"background":{
+		"scripts":["jquery.js","back.js"],
+		"persistent": false
+		},
+	"permissions": [
+		"tabs","identity",
+		"https://docs.google.com/spreadsheets/d/*",
+		"https://sheets.googleapis.com/*"
+		],
+	"oauth2": {
+		"client_id": "664965669399-2uodadudn1ilb92as6jfjs7014199pl7.apps.googleusercontent.com",
+		"scopes": ["https://www.googleapis.com/auth/drive"]
+	},
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzoVsPctlfMesWCwFLP8pHLbuWVJYf7tqzfoNc5YNQvhQquHlid68u4JzjnyvSp67nleNl8/m/mIo25zrtX6lnydHlgcTiLr0wfhBvchaFhHFSejl1j8RQRU1xSnPoIxxG/it3MMbd/fZVpeaU/YxYZsi/rScSBycIRSwEul7PRhRODqaY/88PQHOfDdjyEBLh/NAd3b2sOJQ1AbRgVXVU/SrS2Z0gcazrJ7NBUXCaHwKB5uBU47xVNkF9PQgMVWbn7ElGhz99+Ihou3wWHvjsjWdn/7rXXonndbvO1YwTLT4MF2kGxFTH8upxBUgwwiHVbjgUyEFRextbYEvCRJzEQIDAQAB"
+}
