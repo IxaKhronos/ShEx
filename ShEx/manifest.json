@@ -11,13 +11,12 @@
 	},
 	"permissions": [
 		"identity",
-		"storage",
 		"http://www.google.com/",
 		"https://www.googleapis.com/"
    ],
    "oauth2": {
       "client_id": "720326386433-t1sbt7ll0novcgs309rasrh8pbrfvt37.apps.googleusercontent.com",
-      "scopes": ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+      "scopes": ["https://www.googleapis.com/auth/spreadsheets"]
    },
 	"content_security_policy": "script-src 'self' https://content.googleapis.com https://ajax.googleapis.com https://www.googleapis.com https://apis.google.com https://accounts.google.com https://oauth.googleusercontent.com https://docs.google.com; object-src 'self'"
 }
